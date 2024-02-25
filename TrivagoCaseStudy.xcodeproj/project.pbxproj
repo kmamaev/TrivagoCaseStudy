@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBC5A3F2B8B7F4A00709413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A3E2B8B7F4A00709413 /* AppDelegate.swift */; };
+		ECBC5A412B8B7F4A00709413 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A402B8B7F4A00709413 /* SceneDelegate.swift */; };
+		ECBC5A432B8B7F4A00709413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A422B8B7F4A00709413 /* ViewController.swift */; };
+		ECBC5A462B8B7F4A00709413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBC5A442B8B7F4A00709413 /* Main.storyboard */; };
+		ECBC5A482B8B7F4B00709413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBC5A472B8B7F4B00709413 /* Assets.xcassets */; };
+		ECBC5A4B2B8B7F4B00709413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBC5A492B8B7F4B00709413 /* LaunchScreen.storyboard */; };
+		ECBC5A562B8B7F4B00709413 /* TrivagoCaseStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A552B8B7F4B00709413 /* TrivagoCaseStudyTests.swift */; };
+		ECBC5A602B8B7F4B00709413 /* TrivagoCaseStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A5F2B8B7F4B00709413 /* TrivagoCaseStudyUITests.swift */; };
+		ECBC5A622B8B7F4B00709413 /* TrivagoCaseStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A612B8B7F4B00709413 /* TrivagoCaseStudyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBC5A522B8B7F4B00709413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBC5A332B8B7F4A00709413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBC5A3A2B8B7F4A00709413;
+			remoteInfo = TrivagoCaseStudy;
+		};
+		ECBC5A5C2B8B7F4B00709413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBC5A332B8B7F4A00709413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBC5A3A2B8B7F4A00709413;
+			remoteInfo = TrivagoCaseStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECBC5A3B2B8B7F4A00709413 /* TrivagoCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivagoCaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBC5A3E2B8B7F4A00709413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECBC5A402B8B7F4A00709413 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECBC5A422B8B7F4A00709413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECBC5A452B8B7F4A00709413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECBC5A472B8B7F4B00709413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBC5A4A2B8B7F4B00709413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECBC5A4C2B8B7F4B00709413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBC5A512B8B7F4B00709413 /* TrivagoCaseStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivagoCaseStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBC5A552B8B7F4B00709413 /* TrivagoCaseStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagoCaseStudyTests.swift; sourceTree = "<group>"; };
+		ECBC5A5B2B8B7F4B00709413 /* TrivagoCaseStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivagoCaseStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBC5A5F2B8B7F4B00709413 /* TrivagoCaseStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagoCaseStudyUITests.swift; sourceTree = "<group>"; };
+		ECBC5A612B8B7F4B00709413 /* TrivagoCaseStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagoCaseStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBC5A382B8B7F4A00709413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBC5A4E2B8B7F4B00709413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBC5A582B8B7F4B00709413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBC5A322B8B7F4A00709413 = {
+			isa = PBXGroup;
+			children = (
+				ECBC5A3D2B8B7F4A00709413 /* TrivagoCaseStudy */,
+				ECBC5A542B8B7F4B00709413 /* TrivagoCaseStudyTests */,
+				ECBC5A5E2B8B7F4B00709413 /* TrivagoCaseStudyUITests */,
+				ECBC5A3C2B8B7F4A00709413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBC5A3C2B8B7F4A00709413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC5A3B2B8B7F4A00709413 /* TrivagoCaseStudy.app */,
+				ECBC5A512B8B7F4B00709413 /* TrivagoCaseStudyTests.xctest */,
+				ECBC5A5B2B8B7F4B00709413 /* TrivagoCaseStudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBC5A3D2B8B7F4A00709413 /* TrivagoCaseStudy */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC5A3E2B8B7F4A00709413 /* AppDelegate.swift */,
+				ECBC5A402B8B7F4A00709413 /* SceneDelegate.swift */,
+				ECBC5A422B8B7F4A00709413 /* ViewController.swift */,
+				ECBC5A442B8B7F4A00709413 /* Main.storyboard */,
+				ECBC5A472B8B7F4B00709413 /* Assets.xcassets */,
+				ECBC5A492B8B7F4B00709413 /* LaunchScreen.storyboard */,
+				ECBC5A4C2B8B7F4B00709413 /* Info.plist */,
+			);
+			path = TrivagoCaseStudy;
+			sourceTree = "<group>";
+		};
+		ECBC5A542B8B7F4B00709413 /* TrivagoCaseStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC5A552B8B7F4B00709413 /* TrivagoCaseStudyTests.swift */,
+			);
+			path = TrivagoCaseStudyTests;
+			sourceTree = "<group>";
+		};
+		ECBC5A5E2B8B7F4B00709413 /* TrivagoCaseStudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC5A5F2B8B7F4B00709413 /* TrivagoCaseStudyUITests.swift */,
+				ECBC5A612B8B7F4B00709413 /* TrivagoCaseStudyUITestsLaunchTests.swift */,
+			);
+			path = TrivagoCaseStudyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBC5A3A2B8B7F4A00709413 /* TrivagoCaseStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBC5A652B8B7F4B00709413 /* Build configuration list for PBXNativeTarget "TrivagoCaseStudy" */;
+			buildPhases = (
+				ECBC5A372B8B7F4A00709413 /* Sources */,
+				ECBC5A382B8B7F4A00709413 /* Frameworks */,
+				ECBC5A392B8B7F4A00709413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrivagoCaseStudy;
+			productName = TrivagoCaseStudy;
+			productReference = ECBC5A3B2B8B7F4A00709413 /* TrivagoCaseStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBC5A502B8B7F4B00709413 /* TrivagoCaseStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBC5A682B8B7F4B00709413 /* Build configuration list for PBXNativeTarget "TrivagoCaseStudyTests" */;
+			buildPhases = (
+				ECBC5A4D2B8B7F4B00709413 /* Sources */,
+				ECBC5A4E2B8B7F4B00709413 /* Frameworks */,
+				ECBC5A4F2B8B7F4B00709413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBC5A532B8B7F4B00709413 /* PBXTargetDependency */,
+			);
+			name = TrivagoCaseStudyTests;
+			productName = TrivagoCaseStudyTests;
+			productReference = ECBC5A512B8B7F4B00709413 /* TrivagoCaseStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECBC5A5A2B8B7F4B00709413 /* TrivagoCaseStudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBC5A6B2B8B7F4B00709413 /* Build configuration list for PBXNativeTarget "TrivagoCaseStudyUITests" */;
+			buildPhases = (
+				ECBC5A572B8B7F4B00709413 /* Sources */,
+				ECBC5A582B8B7F4B00709413 /* Frameworks */,
+				ECBC5A592B8B7F4B00709413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBC5A5D2B8B7F4B00709413 /* PBXTargetDependency */,
+			);
+			name = TrivagoCaseStudyUITests;
+			productName = TrivagoCaseStudyUITests;
+			productReference = ECBC5A5B2B8B7F4B00709413 /* TrivagoCaseStudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBC5A332B8B7F4A00709413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ECBC5A3A2B8B7F4A00709413 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					ECBC5A502B8B7F4B00709413 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = ECBC5A3A2B8B7F4A00709413;
+					};
+					ECBC5A5A2B8B7F4B00709413 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = ECBC5A3A2B8B7F4A00709413;
+					};
+				};
+			};
+			buildConfigurationList = ECBC5A362B8B7F4A00709413 /* Build configuration list for PBXProject "TrivagoCaseStudy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBC5A322B8B7F4A00709413;
+			productRefGroup = ECBC5A3C2B8B7F4A00709413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBC5A3A2B8B7F4A00709413 /* TrivagoCaseStudy */,
+				ECBC5A502B8B7F4B00709413 /* TrivagoCaseStudyTests */,
+				ECBC5A5A2B8B7F4B00709413 /* TrivagoCaseStudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBC5A392B8B7F4A00709413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBC5A4B2B8B7F4B00709413 /* LaunchScreen.storyboard in Resources */,
+				ECBC5A482B8B7F4B00709413 /* Assets.xcassets in Resources */,
+				ECBC5A462B8B7F4A00709413 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBC5A4F2B8B7F4B00709413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBC5A592B8B7F4B00709413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBC5A372B8B7F4A00709413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBC5A432B8B7F4A00709413 /* ViewController.swift in Sources */,
+				ECBC5A3F2B8B7F4A00709413 /* AppDelegate.swift in Sources */,
+				ECBC5A412B8B7F4A00709413 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBC5A4D2B8B7F4B00709413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBC5A562B8B7F4B00709413 /* TrivagoCaseStudyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBC5A572B8B7F4B00709413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBC5A602B8B7F4B00709413 /* TrivagoCaseStudyUITests.swift in Sources */,
+				ECBC5A622B8B7F4B00709413 /* TrivagoCaseStudyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBC5A532B8B7F4B00709413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBC5A3A2B8B7F4A00709413 /* TrivagoCaseStudy */;
+			targetProxy = ECBC5A522B8B7F4B00709413 /* PBXContainerItemProxy */;
+		};
+		ECBC5A5D2B8B7F4B00709413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBC5A3A2B8B7F4A00709413 /* TrivagoCaseStudy */;
+			targetProxy = ECBC5A5C2B8B7F4B00709413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECBC5A442B8B7F4A00709413 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBC5A452B8B7F4A00709413 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECBC5A492B8B7F4B00709413 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBC5A4A2B8B7F4B00709413 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBC5A632B8B7F4B00709413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECBC5A642B8B7F4B00709413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBC5A662B8B7F4B00709413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM3MQJ6TQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrivagoCaseStudy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plhs.kostya.TrivagoCaseStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBC5A672B8B7F4B00709413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM3MQJ6TQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrivagoCaseStudy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plhs.kostya.TrivagoCaseStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECBC5A692B8B7F4B00709413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM3MQJ6TQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plhs.kostya.TrivagoCaseStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrivagoCaseStudy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrivagoCaseStudy";
+			};
+			name = Debug;
+		};
+		ECBC5A6A2B8B7F4B00709413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM3MQJ6TQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plhs.kostya.TrivagoCaseStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrivagoCaseStudy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrivagoCaseStudy";
+			};
+			name = Release;
+		};
+		ECBC5A6C2B8B7F4B00709413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM3MQJ6TQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plhs.kostya.TrivagoCaseStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrivagoCaseStudy;
+			};
+			name = Debug;
+		};
+		ECBC5A6D2B8B7F4B00709413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM3MQJ6TQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plhs.kostya.TrivagoCaseStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrivagoCaseStudy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBC5A362B8B7F4A00709413 /* Build configuration list for PBXProject "TrivagoCaseStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBC5A632B8B7F4B00709413 /* Debug */,
+				ECBC5A642B8B7F4B00709413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBC5A652B8B7F4B00709413 /* Build configuration list for PBXNativeTarget "TrivagoCaseStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBC5A662B8B7F4B00709413 /* Debug */,
+				ECBC5A672B8B7F4B00709413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBC5A682B8B7F4B00709413 /* Build configuration list for PBXNativeTarget "TrivagoCaseStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBC5A692B8B7F4B00709413 /* Debug */,
+				ECBC5A6A2B8B7F4B00709413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBC5A6B2B8B7F4B00709413 /* Build configuration list for PBXNativeTarget "TrivagoCaseStudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBC5A6C2B8B7F4B00709413 /* Debug */,
+				ECBC5A6D2B8B7F4B00709413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBC5A332B8B7F4A00709413 /* Project object */;
+}
