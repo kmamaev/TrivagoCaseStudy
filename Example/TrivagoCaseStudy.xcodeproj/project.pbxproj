@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23C79DBF58FD0B95A420CD9A /* Pods_TrivagoCaseStudyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6F50CA4BF53D8853B14DDD /* Pods_TrivagoCaseStudyTests.framework */; };
+		B698A316313315627E5716F1 /* Pods_TrivagoCaseStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDA3462F880A72AF18D5EDE /* Pods_TrivagoCaseStudy.framework */; };
+		BBA64DFA61665B08BFBCB3E9 /* Pods_TrivagoCaseStudy_TrivagoCaseStudyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AEA231C1C36B00EAA43C0C /* Pods_TrivagoCaseStudy_TrivagoCaseStudyUITests.framework */; };
 		EC802EA52B8CAB4D00D8AE2A /* BrandButtonWithCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC802EA42B8CAB4D00D8AE2A /* BrandButtonWithCodeViewController.swift */; };
 		EC802EA72B8CB1F500D8AE2A /* BrandButtonWithSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC802EA62B8CB1F500D8AE2A /* BrandButtonWithSwiftUIView.swift */; };
-		EC802EA92B8CB22500D8AE2A /* BrandButtonRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC802EA82B8CB22500D8AE2A /* BrandButtonRepresentable.swift */; };
 		ECBC5A3F2B8B7F4A00709413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A3E2B8B7F4A00709413 /* AppDelegate.swift */; };
 		ECBC5A412B8B7F4A00709413 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A402B8B7F4A00709413 /* SceneDelegate.swift */; };
 		ECBC5A432B8B7F4A00709413 /* ButtonExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A422B8B7F4A00709413 /* ButtonExampleViewController.swift */; };
@@ -19,12 +21,6 @@
 		ECBC5A562B8B7F4B00709413 /* TrivagoCaseStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A552B8B7F4B00709413 /* TrivagoCaseStudyTests.swift */; };
 		ECBC5A602B8B7F4B00709413 /* TrivagoCaseStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A5F2B8B7F4B00709413 /* TrivagoCaseStudyUITests.swift */; };
 		ECBC5A622B8B7F4B00709413 /* TrivagoCaseStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A612B8B7F4B00709413 /* TrivagoCaseStudyUITestsLaunchTests.swift */; };
-		ECBC5A732B8B81D100709413 /* BrandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A722B8B81D100709413 /* BrandButton.swift */; };
-		ECBC5A762B8B874000709413 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A752B8B874000709413 /* UIColor+Hex.swift */; };
-		ECBC5A7C2B8BA0E300709413 /* proximanova_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECBC5A7B2B8BA0E300709413 /* proximanova_bold.otf */; };
-		ECBC5A7F2B8BA96D00709413 /* CustomColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A7E2B8BA96D00709413 /* CustomColorButton.swift */; };
-		ECBC5A812B8BC81100709413 /* BrandButtonColorsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A802B8BC81100709413 /* BrandButtonColorsProvider.swift */; };
-		ECBC5A832B8C833700709413 /* BrandColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A822B8C833700709413 /* BrandColor.swift */; };
 		ECBC5A8B2B8C91C600709413 /* ExampleChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A8A2B8C91C600709413 /* ExampleChooserViewController.swift */; };
 		ECBC5A8D2B8C958700709413 /* BrandButtonWithStoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A8C2B8C958700709413 /* BrandButtonWithStoryboardViewController.swift */; };
 /* End PBXBuildFile section */
@@ -47,9 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008E967D50D67C49C6569114 /* Pods-TrivagoCaseStudyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivagoCaseStudyTests.debug.xcconfig"; path = "Target Support Files/Pods-TrivagoCaseStudyTests/Pods-TrivagoCaseStudyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45D36254F6C07F5C518CDBD2 /* Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests.release.xcconfig"; path = "Target Support Files/Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests/Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5150B59E34BCE9DDC6DA5428 /* Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests.debug.xcconfig"; path = "Target Support Files/Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests/Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B6F50CA4BF53D8853B14DDD /* Pods_TrivagoCaseStudyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrivagoCaseStudyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6DD3F7295A79EA0CDA057E /* Pods-TrivagoCaseStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivagoCaseStudy.debug.xcconfig"; path = "Target Support Files/Pods-TrivagoCaseStudy/Pods-TrivagoCaseStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		B9AEA231C1C36B00EAA43C0C /* Pods_TrivagoCaseStudy_TrivagoCaseStudyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrivagoCaseStudy_TrivagoCaseStudyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC984658B53E4F2745216C9E /* Pods-TrivagoCaseStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivagoCaseStudy.release.xcconfig"; path = "Target Support Files/Pods-TrivagoCaseStudy/Pods-TrivagoCaseStudy.release.xcconfig"; sourceTree = "<group>"; };
 		EC802EA42B8CAB4D00D8AE2A /* BrandButtonWithCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonWithCodeViewController.swift; sourceTree = "<group>"; };
 		EC802EA62B8CB1F500D8AE2A /* BrandButtonWithSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonWithSwiftUIView.swift; sourceTree = "<group>"; };
-		EC802EA82B8CB22500D8AE2A /* BrandButtonRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonRepresentable.swift; sourceTree = "<group>"; };
 		ECBC5A3B2B8B7F4A00709413 /* TrivagoCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivagoCaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBC5A3E2B8B7F4A00709413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECBC5A402B8B7F4A00709413 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,14 +65,10 @@
 		ECBC5A5B2B8B7F4B00709413 /* TrivagoCaseStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivagoCaseStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBC5A5F2B8B7F4B00709413 /* TrivagoCaseStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagoCaseStudyUITests.swift; sourceTree = "<group>"; };
 		ECBC5A612B8B7F4B00709413 /* TrivagoCaseStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagoCaseStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		ECBC5A722B8B81D100709413 /* BrandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButton.swift; sourceTree = "<group>"; };
-		ECBC5A752B8B874000709413 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
-		ECBC5A7B2B8BA0E300709413 /* proximanova_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximanova_bold.otf; sourceTree = "<group>"; };
-		ECBC5A7E2B8BA96D00709413 /* CustomColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorButton.swift; sourceTree = "<group>"; };
-		ECBC5A802B8BC81100709413 /* BrandButtonColorsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonColorsProvider.swift; sourceTree = "<group>"; };
-		ECBC5A822B8C833700709413 /* BrandColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandColor.swift; sourceTree = "<group>"; };
 		ECBC5A8A2B8C91C600709413 /* ExampleChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleChooserViewController.swift; sourceTree = "<group>"; };
 		ECBC5A8C2B8C958700709413 /* BrandButtonWithStoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonWithStoryboardViewController.swift; sourceTree = "<group>"; };
+		FCF6500C3C8F377740DBE314 /* Pods-TrivagoCaseStudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivagoCaseStudyTests.release.xcconfig"; path = "Target Support Files/Pods-TrivagoCaseStudyTests/Pods-TrivagoCaseStudyTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDDA3462F880A72AF18D5EDE /* Pods_TrivagoCaseStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrivagoCaseStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B698A316313315627E5716F1 /* Pods_TrivagoCaseStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C79DBF58FD0B95A420CD9A /* Pods_TrivagoCaseStudyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA64DFA61665B08BFBCB3E9 /* Pods_TrivagoCaseStudy_TrivagoCaseStudyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F51FD894E6AC01540459B96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DD3F7295A79EA0CDA057E /* Pods-TrivagoCaseStudy.debug.xcconfig */,
+				BC984658B53E4F2745216C9E /* Pods-TrivagoCaseStudy.release.xcconfig */,
+				5150B59E34BCE9DDC6DA5428 /* Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests.debug.xcconfig */,
+				45D36254F6C07F5C518CDBD2 /* Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests.release.xcconfig */,
+				008E967D50D67C49C6569114 /* Pods-TrivagoCaseStudyTests.debug.xcconfig */,
+				FCF6500C3C8F377740DBE314 /* Pods-TrivagoCaseStudyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		819C734791607B8BF278E737 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDA3462F880A72AF18D5EDE /* Pods_TrivagoCaseStudy.framework */,
+				B9AEA231C1C36B00EAA43C0C /* Pods_TrivagoCaseStudy_TrivagoCaseStudyUITests.framework */,
+				9B6F50CA4BF53D8853B14DDD /* Pods_TrivagoCaseStudyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECBC5A322B8B7F4A00709413 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +129,8 @@
 				ECBC5A542B8B7F4B00709413 /* TrivagoCaseStudyTests */,
 				ECBC5A5E2B8B7F4B00709413 /* TrivagoCaseStudyUITests */,
 				ECBC5A3C2B8B7F4A00709413 /* Products */,
+				5F51FD894E6AC01540459B96 /* Pods */,
+				819C734791607B8BF278E737 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,7 +151,6 @@
 				ECBC5A402B8B7F4A00709413 /* SceneDelegate.swift */,
 				ECBC5A6E2B8B804700709413 /* ViewControllers */,
 				ECBC5A6F2B8B804E00709413 /* Resources */,
-				ECBC5A712B8B815E00709413 /* DesignSystem */,
 				ECBC5A4C2B8B7F4B00709413 /* Info.plist */,
 			);
 			path = TrivagoCaseStudy;
@@ -168,60 +193,6 @@
 				ECBC5A472B8B7F4B00709413 /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		ECBC5A712B8B815E00709413 /* DesignSystem */ = {
-			isa = PBXGroup;
-			children = (
-				ECBC5A822B8C833700709413 /* BrandColor.swift */,
-				ECBC5A7D2B8BA92E00709413 /* BrandButton */,
-				ECBC5A742B8B85AB00709413 /* Utils */,
-				ECBC5A842B8C848C00709413 /* ReusableViews */,
-				ECBC5A772B8B9F8B00709413 /* Resources */,
-			);
-			path = DesignSystem;
-			sourceTree = "<group>";
-		};
-		ECBC5A742B8B85AB00709413 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				ECBC5A752B8B874000709413 /* UIColor+Hex.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		ECBC5A772B8B9F8B00709413 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				ECBC5A782B8B9F9A00709413 /* Fonts */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		ECBC5A782B8B9F9A00709413 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				ECBC5A7B2B8BA0E300709413 /* proximanova_bold.otf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		ECBC5A7D2B8BA92E00709413 /* BrandButton */ = {
-			isa = PBXGroup;
-			children = (
-				ECBC5A722B8B81D100709413 /* BrandButton.swift */,
-				ECBC5A802B8BC81100709413 /* BrandButtonColorsProvider.swift */,
-				EC802EA82B8CB22500D8AE2A /* BrandButtonRepresentable.swift */,
-			);
-			path = BrandButton;
-			sourceTree = "<group>";
-		};
-		ECBC5A842B8C848C00709413 /* ReusableViews */ = {
-			isa = PBXGroup;
-			children = (
-				ECBC5A7E2B8BA96D00709413 /* CustomColorButton.swift */,
-			);
-			path = ReusableViews;
 			sourceTree = "<group>";
 		};
 		ECBC5A852B8C902E00709413 /* ExampleChooser */ = {
@@ -271,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECBC5A652B8B7F4B00709413 /* Build configuration list for PBXNativeTarget "TrivagoCaseStudy" */;
 			buildPhases = (
+				DAE8E87A7A7E2082C9BBD9BC /* [CP] Check Pods Manifest.lock */,
 				ECBC5A372B8B7F4A00709413 /* Sources */,
 				ECBC5A382B8B7F4A00709413 /* Frameworks */,
 				ECBC5A392B8B7F4A00709413 /* Resources */,
+				B91E62FE59AD6D31E4D8E442 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECBC5A682B8B7F4B00709413 /* Build configuration list for PBXNativeTarget "TrivagoCaseStudyTests" */;
 			buildPhases = (
+				D3DCC267B249FD5F76BC6D27 /* [CP] Check Pods Manifest.lock */,
 				ECBC5A4D2B8B7F4B00709413 /* Sources */,
 				ECBC5A4E2B8B7F4B00709413 /* Frameworks */,
 				ECBC5A4F2B8B7F4B00709413 /* Resources */,
@@ -306,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECBC5A6B2B8B7F4B00709413 /* Build configuration list for PBXNativeTarget "TrivagoCaseStudyUITests" */;
 			buildPhases = (
+				9B8D86BC7186640F94AAE0EB /* [CP] Check Pods Manifest.lock */,
 				ECBC5A572B8B7F4B00709413 /* Sources */,
 				ECBC5A582B8B7F4B00709413 /* Frameworks */,
 				ECBC5A592B8B7F4B00709413 /* Resources */,
+				0F89413833F29C2DBD296E9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -371,7 +347,6 @@
 				ECBC5A4B2B8B7F4B00709413 /* LaunchScreen.storyboard in Resources */,
 				ECBC5A482B8B7F4B00709413 /* Assets.xcassets in Resources */,
 				ECBC5A462B8B7F4A00709413 /* Main.storyboard in Resources */,
-				ECBC5A7C2B8BA0E300709413 /* proximanova_bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +366,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F89413833F29C2DBD296E9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests/Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests/Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests/Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B8D86BC7186640F94AAE0EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91E62FE59AD6D31E4D8E442 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrivagoCaseStudy/Pods-TrivagoCaseStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrivagoCaseStudy/Pods-TrivagoCaseStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrivagoCaseStudy/Pods-TrivagoCaseStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3DCC267B249FD5F76BC6D27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrivagoCaseStudyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE8E87A7A7E2082C9BBD9BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrivagoCaseStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECBC5A372B8B7F4A00709413 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -399,16 +477,10 @@
 				ECBC5A432B8B7F4A00709413 /* ButtonExampleViewController.swift in Sources */,
 				ECBC5A8D2B8C958700709413 /* BrandButtonWithStoryboardViewController.swift in Sources */,
 				ECBC5A8B2B8C91C600709413 /* ExampleChooserViewController.swift in Sources */,
-				ECBC5A832B8C833700709413 /* BrandColor.swift in Sources */,
-				EC802EA92B8CB22500D8AE2A /* BrandButtonRepresentable.swift in Sources */,
 				EC802EA72B8CB1F500D8AE2A /* BrandButtonWithSwiftUIView.swift in Sources */,
 				EC802EA52B8CAB4D00D8AE2A /* BrandButtonWithCodeViewController.swift in Sources */,
 				ECBC5A3F2B8B7F4A00709413 /* AppDelegate.swift in Sources */,
-				ECBC5A7F2B8BA96D00709413 /* CustomColorButton.swift in Sources */,
-				ECBC5A732B8B81D100709413 /* BrandButton.swift in Sources */,
-				ECBC5A812B8BC81100709413 /* BrandButtonColorsProvider.swift in Sources */,
 				ECBC5A412B8B7F4A00709413 /* SceneDelegate.swift in Sources */,
-				ECBC5A762B8B874000709413 /* UIColor+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,12 +657,14 @@
 		};
 		ECBC5A662B8B7F4B00709413 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6DD3F7295A79EA0CDA057E /* Pods-TrivagoCaseStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FM3MQJ6TQT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrivagoCaseStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -613,12 +687,14 @@
 		};
 		ECBC5A672B8B7F4B00709413 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC984658B53E4F2745216C9E /* Pods-TrivagoCaseStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FM3MQJ6TQT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrivagoCaseStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -641,6 +717,7 @@
 		};
 		ECBC5A692B8B7F4B00709413 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 008E967D50D67C49C6569114 /* Pods-TrivagoCaseStudyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -661,6 +738,7 @@
 		};
 		ECBC5A6A2B8B7F4B00709413 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF6500C3C8F377740DBE314 /* Pods-TrivagoCaseStudyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -681,6 +759,7 @@
 		};
 		ECBC5A6C2B8B7F4B00709413 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5150B59E34BCE9DDC6DA5428 /* Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -699,6 +778,7 @@
 		};
 		ECBC5A6D2B8B7F4B00709413 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D36254F6C07F5C518CDBD2 /* Pods-TrivagoCaseStudy-TrivagoCaseStudyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

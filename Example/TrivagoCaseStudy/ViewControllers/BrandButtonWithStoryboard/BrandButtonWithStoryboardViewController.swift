@@ -1,4 +1,5 @@
 import UIKit
+import BrandButton
 
 class BrandButtonWithStoryboardViewController: UIViewController {
     @IBOutlet private var alignedToLeftButton: BrandButton!

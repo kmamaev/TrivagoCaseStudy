@@ -1,0 +1,6 @@
+framework module BrandButton {
+  umbrella header "BrandButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

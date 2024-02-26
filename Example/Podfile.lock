@@ -1,0 +1,21 @@
+PODS:
+  - BrandButton (1.0.2)
+
+DEPENDENCIES:
+  - BrandButton (from `https://github.com/kmamaev/TrivagoCaseStudy.git`)
+
+EXTERNAL SOURCES:
+  BrandButton:
+    :git: https://github.com/kmamaev/TrivagoCaseStudy.git
+
+CHECKOUT OPTIONS:
+  BrandButton:
+    :commit: 34bb66bee696a944912b87a070b80531fd469a45
+    :git: https://github.com/kmamaev/TrivagoCaseStudy.git
+
+SPEC CHECKSUMS:
+  BrandButton: 0d38f68175e678001dc54e58cbc56414e80920ca
+
+PODFILE CHECKSUM: 15b9ce1d21cc2bf23b7005906fc534fa4b45b123
+
+COCOAPODS: 1.11.3

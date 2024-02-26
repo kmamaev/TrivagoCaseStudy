@@ -1,4 +1,5 @@
 import SwiftUI
+import BrandButton
 
 struct BrandButtonWithSwiftUIView: View {
     @State var isLeftAlignedButtonEnabled: Bool = true

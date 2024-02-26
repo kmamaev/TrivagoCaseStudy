@@ -1,0 +1,13 @@
+target 'TrivagoCaseStudy' do
+  use_frameworks!
+
+  pod 'BrandButton', :git => 'https://github.com/kmamaev/TrivagoCaseStudy.git'
+
+  target 'TrivagoCaseStudyTests' do
+    inherit! :search_paths
+  end
+
+  target 'TrivagoCaseStudyUITests' do
+  end
+
+end

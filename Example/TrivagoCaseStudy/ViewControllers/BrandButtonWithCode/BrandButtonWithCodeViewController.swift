@@ -1,4 +1,5 @@
 import UIKit
+import BrandButton
 
 class BrandButtonWithCodeViewController: UIViewController {
     private let stackView = UIStackView()

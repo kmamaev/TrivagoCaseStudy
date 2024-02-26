@@ -68,8 +68,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WDy-4D-JYx">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="52"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qq7-l2-HZk" customClass="BrandButton" customModule="TrivagoCaseStudy" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="4" width="123" height="44"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qq7-l2-HZk" customClass="BrandButton" customModule="BrandButton">
+                                                <rect key="frame" x="16" y="4" width="133" height="44"/>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -82,8 +82,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qOf-RG-uiU">
                                         <rect key="frame" x="0.0" y="52" width="393" height="52"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z2B-hH-5AO" customClass="BrandButton" customModule="TrivagoCaseStudy" customModuleProvider="target">
-                                                <rect key="frame" x="254" y="4" width="123" height="44"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z2B-hH-5AO" customClass="BrandButton" customModule="BrandButton">
+                                                <rect key="frame" x="244" y="4" width="133" height="44"/>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -96,8 +96,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhi-7w-2qK">
                                         <rect key="frame" x="0.0" y="104" width="393" height="52"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dXY-Zb-49Y" customClass="BrandButton" customModule="TrivagoCaseStudy" customModuleProvider="target">
-                                                <rect key="frame" x="135" y="4" width="123" height="44"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dXY-Zb-49Y" customClass="BrandButton" customModule="BrandButton">
+                                                <rect key="frame" x="130" y="4" width="133" height="44"/>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -110,7 +110,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uPf-gK-mcf">
                                         <rect key="frame" x="0.0" y="156" width="393" height="52"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6gs-IH-yhQ" customClass="BrandButton" customModule="TrivagoCaseStudy" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6gs-IH-yhQ" customClass="BrandButton" customModule="BrandButton">
                                                 <rect key="frame" x="16" y="4" width="361" height="44"/>
                                             </view>
                                         </subviews>
@@ -147,16 +147,16 @@
     </scenes>
     <designables>
         <designable name="6gs-IH-yhQ">
-            <size key="intrinsicContentSize" width="-1" height="44"/>
+            <size key="intrinsicContentSize" width="133" height="44"/>
         </designable>
         <designable name="dXY-Zb-49Y">
-            <size key="intrinsicContentSize" width="-1" height="44"/>
+            <size key="intrinsicContentSize" width="133" height="44"/>
         </designable>
         <designable name="qq7-l2-HZk">
-            <size key="intrinsicContentSize" width="-1" height="44"/>
+            <size key="intrinsicContentSize" width="133" height="44"/>
         </designable>
         <designable name="z2B-hH-5AO">
-            <size key="intrinsicContentSize" width="-1" height="44"/>
+            <size key="intrinsicContentSize" width="133" height="44"/>
         </designable>
     </designables>
     <resources>
