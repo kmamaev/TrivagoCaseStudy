@@ -6,11 +6,27 @@
 
 # Installation
 
-TBD
+## With CocoaPods
+
+1. Add the following line to your Podfile:
+
+`pod 'BrandButton', :git => 'https://github.com/kmamaev/TrivagoCaseStudy.git'`
+
+2. Execute `pod install`
+
+## With SPM
+
+1. In XCode go to File → Add Package Dependencies...
+
+2. In the search field enter "https://github.com/kmamaev/TrivagoCaseStudy"
+
+3. Add the found package
 
 # Usage
 
 ```swift
+import BrandButton
+
 let button = BrandButton()
 let configuration = BrandButton.Configuration(variant: .primary, color: .green, leadingIcon: nil, trailingIcon: UIImage(systemName: "heart.fill")!, isEnabled: true)
 button.setConfiguration(configuration)
@@ -39,6 +55,7 @@ button.onTap = { print("Button works") }
 
 ```swift
 import SwiftUI
+import BrandButton
 
 struct BrandButtonDemoView: View {
     @State var buttonEnabled: Bool = true
