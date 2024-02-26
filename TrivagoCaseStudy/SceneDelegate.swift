@@ -7,9 +7,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         
         let window = UIWindow(windowScene: scene)
-        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = mainStoryboard.instantiateViewController(identifier: "ButtonExampleViewController")
-        window.rootViewController = viewController
+        let exampleChooserViewController = ExampleChooserTableViewController()
+        window.rootViewController = UINavigationController(rootViewController: exampleChooserViewController)
         window.makeKeyAndVisible()
         self.window = window
     }

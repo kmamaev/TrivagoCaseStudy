@@ -1,6 +1,6 @@
 import UIKit
 
-class ButtonExampleViewController: UIViewController {
+class BrandButtonVariationsViewController: UIViewController {
     @IBOutlet private var stackView: UIStackView!
     
     override func viewDidLoad() {
