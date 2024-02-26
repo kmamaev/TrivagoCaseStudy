@@ -1,7 +1,7 @@
 # BrandButton
 
 <p align="center">
-  <img src="Variations.png" width="240" height="500"/>
+  <img src="Variations.png" width="330" height="760"/>
 </p>
 
 # Installation
@@ -21,19 +21,19 @@ button.onTap = { print("Button works") }
 
 ## With Storyboard
 
-### 1. In the Interface builder add a UIView to a ViewController
+1. In the Interface builder add a UIView to a ViewController
 
-### 2. Change the class of the view to BrandButton
+2. Change the class of the view to BrandButton
 
 <p align="center">
-  <img src="Storyboard.png" width="350" height="760"/>
+  <img src="Storyboard.png" style="max-width: 760px; height: auto;" />
 </p>
 
-### 3. Add position constraints. Don't add size constraints, they are calculated automatically
+3. Add position constraints. Don't add size constraints, they are calculated automatically
 
-### 4. With 'Control + Drag' action add an @IBOutlet property to the ViewController's code
+4. With 'Control + Drag' action add an @IBOutlet property to the ViewController's code
 
-### 5. Configure the button in 'viewDidLoad' function in accordance with usage description
+5. Configure the button in 'viewDidLoad' function in accordance with usage description
 
 ## With SwiftUI
 
