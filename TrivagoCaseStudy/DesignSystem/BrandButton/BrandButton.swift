@@ -1,7 +1,7 @@
 import UIKit
 import os
 
-public final class BrandButton: UIView {
+@IBDesignable public final class BrandButton: UIView {
     private static let logger = Logger(subsystem: "Design System", category: "TrigavoButton")
     
     private enum Constants {
@@ -46,7 +46,7 @@ public final class BrandButton: UIView {
         isEnabled = configuration.isEnabled
     }
 
-    var label: String? {
+    @IBInspectable var label: String? {
         get {
             return button.titleLabel?.text
         } set {
@@ -89,7 +89,7 @@ public final class BrandButton: UIView {
     
     var onTap: (() -> ())?
     
-    private var height: CGFloat = 0
+    private var height: CGFloat = 44
     private var leftImageView: UIImageView?
     private var rightImageView: UIImageView?
     private let button = CustomColorButton(type: .custom)
@@ -121,11 +121,17 @@ public final class BrandButton: UIView {
     public override var intrinsicContentSize: CGSize {
         return CGSize(width: super.intrinsicContentSize.width, height: height)
     }
+    
+    public override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        invalidateIntrinsicContentSize()
+    }
 }
 
 private extension BrandButton {
     func commonInit() {
         height = Self.height(forSize: size)
+        label = "Brand Button"
         
         addSubview(button)
         button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)

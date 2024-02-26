@@ -7,7 +7,7 @@ enum Example {
     case brandButtonWithSwiftUI
 }
 
-class ExampleChooserTableViewController: UITableViewController {
+class ExampleChooserViewController: UITableViewController {
     private enum Constants {
         static let cellReuseId = "cellReuseId"
     }
@@ -48,22 +48,23 @@ class ExampleChooserTableViewController: UITableViewController {
 
 // MARK: - Navigation
 
-extension ExampleChooserTableViewController {
+extension ExampleChooserViewController {
     func showExample(_ example: Example) {
         let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
         switch example {
         case .brandButtonVariations:
             let viewController = mainStoryboard.instantiateViewController(identifier: "BrandButtonVariationsViewController")
             navigationController?.pushViewController(viewController, animated: true)
-            break
         case .brandButtonWithCode:
             // TODO: implement
+            print("Not implemented yet")
             break
         case .brandButtonWithStoryboard:
-            // TODO: implement
-            break
+            let viewController = mainStoryboard.instantiateViewController(identifier: "BrandButtonWithStoryboardViewController")
+            navigationController?.pushViewController(viewController, animated: true)
         case .brandButtonWithSwiftUI:
             // TODO: implement
+            print("Not implemented yet")
             break
         }
     }

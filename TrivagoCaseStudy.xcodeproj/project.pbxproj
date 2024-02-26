@@ -22,7 +22,8 @@
 		ECBC5A7F2B8BA96D00709413 /* CustomColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A7E2B8BA96D00709413 /* CustomColorButton.swift */; };
 		ECBC5A812B8BC81100709413 /* BrandButtonColorsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A802B8BC81100709413 /* BrandButtonColorsProvider.swift */; };
 		ECBC5A832B8C833700709413 /* BrandColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A822B8C833700709413 /* BrandColor.swift */; };
-		ECBC5A8B2B8C91C600709413 /* ExampleChooserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A8A2B8C91C600709413 /* ExampleChooserTableViewController.swift */; };
+		ECBC5A8B2B8C91C600709413 /* ExampleChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A8A2B8C91C600709413 /* ExampleChooserViewController.swift */; };
+		ECBC5A8D2B8C958700709413 /* BrandButtonWithStoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A8C2B8C958700709413 /* BrandButtonWithStoryboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +63,8 @@
 		ECBC5A7E2B8BA96D00709413 /* CustomColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorButton.swift; sourceTree = "<group>"; };
 		ECBC5A802B8BC81100709413 /* BrandButtonColorsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonColorsProvider.swift; sourceTree = "<group>"; };
 		ECBC5A822B8C833700709413 /* BrandColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandColor.swift; sourceTree = "<group>"; };
-		ECBC5A8A2B8C91C600709413 /* ExampleChooserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleChooserTableViewController.swift; sourceTree = "<group>"; };
+		ECBC5A8A2B8C91C600709413 /* ExampleChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleChooserViewController.swift; sourceTree = "<group>"; };
+		ECBC5A8C2B8C958700709413 /* BrandButtonWithStoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonWithStoryboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,7 +220,7 @@
 		ECBC5A852B8C902E00709413 /* ExampleChooser */ = {
 			isa = PBXGroup;
 			children = (
-				ECBC5A8A2B8C91C600709413 /* ExampleChooserTableViewController.swift */,
+				ECBC5A8A2B8C91C600709413 /* ExampleChooserViewController.swift */,
 			);
 			path = ExampleChooser;
 			sourceTree = "<group>";
@@ -234,6 +236,7 @@
 		ECBC5A872B8C907600709413 /* BrandButtonWithStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				ECBC5A8C2B8C958700709413 /* BrandButtonWithStoryboardViewController.swift */,
 			);
 			path = BrandButtonWithStoryboard;
 			sourceTree = "<group>";
@@ -385,7 +388,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECBC5A432B8B7F4A00709413 /* ButtonExampleViewController.swift in Sources */,
-				ECBC5A8B2B8C91C600709413 /* ExampleChooserTableViewController.swift in Sources */,
+				ECBC5A8D2B8C958700709413 /* BrandButtonWithStoryboardViewController.swift in Sources */,
+				ECBC5A8B2B8C91C600709413 /* ExampleChooserViewController.swift in Sources */,
 				ECBC5A832B8C833700709413 /* BrandColor.swift in Sources */,
 				ECBC5A3F2B8B7F4A00709413 /* AppDelegate.swift in Sources */,
 				ECBC5A7F2B8BA96D00709413 /* CustomColorButton.swift in Sources */,

@@ -54,7 +54,111 @@
             </objects>
             <point key="canvasLocation" x="-8.3969465648854964" y="3.5211267605633805"/>
         </scene>
+        <!--Brand Button With Storyboard View Controller-->
+        <scene sceneID="tgC-Fx-c0L">
+            <objects>
+                <viewController storyboardIdentifier="BrandButtonWithStoryboardViewController" id="tfn-5d-RqK" customClass="BrandButtonWithStoryboardViewController" customModule="TrivagoCaseStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wlL-ds-Bbx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xYv-sD-vGC">
+                                <rect key="frame" x="0.0" y="322" width="393" height="208"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WDy-4D-JYx">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="52"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qq7-l2-HZk" customClass="BrandButton" customModule="TrivagoCaseStudy" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="4" width="123" height="44"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="qq7-l2-HZk" firstAttribute="top" secondItem="WDy-4D-JYx" secondAttribute="top" constant="4" id="gql-iY-xgy"/>
+                                            <constraint firstAttribute="bottom" secondItem="qq7-l2-HZk" secondAttribute="bottom" constant="4" id="reo-5d-YE1"/>
+                                            <constraint firstItem="qq7-l2-HZk" firstAttribute="leading" secondItem="WDy-4D-JYx" secondAttribute="leading" constant="16" id="wrg-Pw-36P"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qOf-RG-uiU">
+                                        <rect key="frame" x="0.0" y="52" width="393" height="52"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z2B-hH-5AO" customClass="BrandButton" customModule="TrivagoCaseStudy" customModuleProvider="target">
+                                                <rect key="frame" x="254" y="4" width="123" height="44"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="z2B-hH-5AO" secondAttribute="trailing" constant="16" id="C6g-AW-tyv"/>
+                                            <constraint firstItem="z2B-hH-5AO" firstAttribute="top" secondItem="qOf-RG-uiU" secondAttribute="top" constant="4" id="lPg-z9-jsC"/>
+                                            <constraint firstAttribute="bottom" secondItem="z2B-hH-5AO" secondAttribute="bottom" constant="4" id="zgg-hJ-xpC"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhi-7w-2qK">
+                                        <rect key="frame" x="0.0" y="104" width="393" height="52"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dXY-Zb-49Y" customClass="BrandButton" customModule="TrivagoCaseStudy" customModuleProvider="target">
+                                                <rect key="frame" x="135" y="4" width="123" height="44"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="dXY-Zb-49Y" firstAttribute="top" secondItem="zhi-7w-2qK" secondAttribute="top" constant="4" id="1j8-JP-NZt"/>
+                                            <constraint firstAttribute="bottom" secondItem="dXY-Zb-49Y" secondAttribute="bottom" constant="4" id="gXQ-Yr-UQW"/>
+                                            <constraint firstItem="dXY-Zb-49Y" firstAttribute="centerX" secondItem="zhi-7w-2qK" secondAttribute="centerX" id="kVB-WQ-TmL"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uPf-gK-mcf">
+                                        <rect key="frame" x="0.0" y="156" width="393" height="52"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6gs-IH-yhQ" customClass="BrandButton" customModule="TrivagoCaseStudy" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="4" width="361" height="44"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="6gs-IH-yhQ" firstAttribute="leading" secondItem="uPf-gK-mcf" secondAttribute="leading" constant="16" id="KzA-hF-4Yy"/>
+                                            <constraint firstAttribute="bottom" secondItem="6gs-IH-yhQ" secondAttribute="bottom" constant="4" id="dPv-Ih-SXc"/>
+                                            <constraint firstAttribute="trailing" secondItem="6gs-IH-yhQ" secondAttribute="trailing" constant="16" id="taB-pk-H25"/>
+                                            <constraint firstItem="6gs-IH-yhQ" firstAttribute="top" secondItem="uPf-gK-mcf" secondAttribute="top" constant="4" id="vVk-7n-1im"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4jo-Vu-780"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4jo-Vu-780" firstAttribute="trailing" secondItem="xYv-sD-vGC" secondAttribute="trailing" id="1Ef-ah-eqP"/>
+                            <constraint firstItem="xYv-sD-vGC" firstAttribute="centerY" secondItem="wlL-ds-Bbx" secondAttribute="centerY" id="uy3-ap-kMK"/>
+                            <constraint firstItem="xYv-sD-vGC" firstAttribute="leading" secondItem="4jo-Vu-780" secondAttribute="leading" id="w5Z-cw-hr8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="alignedToLeftButton" destination="qq7-l2-HZk" id="mDP-pW-mE3"/>
+                        <outlet property="alignedToRightButton" destination="z2B-hH-5AO" id="2Gy-o9-nXX"/>
+                        <outlet property="centeredButton" destination="dXY-Zb-49Y" id="eMc-eX-9VD"/>
+                        <outlet property="fullWidthButton" destination="6gs-IH-yhQ" id="ny2-Xk-Kmc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SBi-nK-dcI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="771.75572519083971" y="3.5211267605633805"/>
+        </scene>
     </scenes>
+    <designables>
+        <designable name="6gs-IH-yhQ">
+            <size key="intrinsicContentSize" width="-1" height="44"/>
+        </designable>
+        <designable name="dXY-Zb-49Y">
+            <size key="intrinsicContentSize" width="-1" height="44"/>
+        </designable>
+        <designable name="qq7-l2-HZk">
+            <size key="intrinsicContentSize" width="-1" height="44"/>
+        </designable>
+        <designable name="z2B-hH-5AO">
+            <size key="intrinsicContentSize" width="-1" height="44"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
