@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC802EA52B8CAB4D00D8AE2A /* BrandButtonWithCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC802EA42B8CAB4D00D8AE2A /* BrandButtonWithCodeViewController.swift */; };
 		ECBC5A3F2B8B7F4A00709413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A3E2B8B7F4A00709413 /* AppDelegate.swift */; };
 		ECBC5A412B8B7F4A00709413 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A402B8B7F4A00709413 /* SceneDelegate.swift */; };
 		ECBC5A432B8B7F4A00709413 /* ButtonExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A422B8B7F4A00709413 /* ButtonExampleViewController.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC802EA42B8CAB4D00D8AE2A /* BrandButtonWithCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonWithCodeViewController.swift; sourceTree = "<group>"; };
 		ECBC5A3B2B8B7F4A00709413 /* TrivagoCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivagoCaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBC5A3E2B8B7F4A00709413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECBC5A402B8B7F4A00709413 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 		ECBC5A882B8C908B00709413 /* BrandButtonWithCode */ = {
 			isa = PBXGroup;
 			children = (
+				EC802EA42B8CAB4D00D8AE2A /* BrandButtonWithCodeViewController.swift */,
 			);
 			path = BrandButtonWithCode;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				ECBC5A8D2B8C958700709413 /* BrandButtonWithStoryboardViewController.swift in Sources */,
 				ECBC5A8B2B8C91C600709413 /* ExampleChooserViewController.swift in Sources */,
 				ECBC5A832B8C833700709413 /* BrandColor.swift in Sources */,
+				EC802EA52B8CAB4D00D8AE2A /* BrandButtonWithCodeViewController.swift in Sources */,
 				ECBC5A3F2B8B7F4A00709413 /* AppDelegate.swift in Sources */,
 				ECBC5A7F2B8BA96D00709413 /* CustomColorButton.swift in Sources */,
 				ECBC5A732B8B81D100709413 /* BrandButton.swift in Sources */,

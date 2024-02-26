@@ -56,9 +56,8 @@ extension ExampleChooserViewController {
             let viewController = mainStoryboard.instantiateViewController(identifier: "BrandButtonVariationsViewController")
             navigationController?.pushViewController(viewController, animated: true)
         case .brandButtonWithCode:
-            // TODO: implement
-            print("Not implemented yet")
-            break
+            let viewController = BrandButtonWithCodeViewController()
+            navigationController?.pushViewController(viewController, animated: true)
         case .brandButtonWithStoryboard:
             let viewController = mainStoryboard.instantiateViewController(identifier: "BrandButtonWithStoryboardViewController")
             navigationController?.pushViewController(viewController, animated: true)
