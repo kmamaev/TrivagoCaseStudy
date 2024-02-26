@@ -10,8 +10,12 @@ class BrandButtonWithStoryboardViewController: UIViewController {
         super.viewDidLoad()
 
         alignedToLeftButton.label = "Aligned to Left"
+        alignedToLeftButton.leadingIcon = UIImage(systemName: "heart.fill")
+        alignedToLeftButton.tintColor = .systemPink
         alignedToRightButton.label = "Aligned to Right"
         alignedToRightButton.color = .blue
+        alignedToRightButton.trailingIcon = UIImage(systemName: "heart.fill")
+        alignedToRightButton.tintColor = .systemPink
         centeredButton.label = "Aligned to Center"
         centeredButton.variant = .secondary
         fullWidthButton.label = "Full Width"

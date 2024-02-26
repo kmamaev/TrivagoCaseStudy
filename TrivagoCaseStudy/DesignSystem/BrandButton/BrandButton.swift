@@ -10,26 +10,26 @@ import os
         static let iconSize: CGFloat = 24
     }
     
-    struct Configuration {
-        enum Variant {
+    public struct Configuration {
+        public enum Variant {
             case primary
             case secondary
         }
-        enum Color {
+        public enum Color {
             case green
             case blue
         }
-        enum Size {
+        public enum Size {
             case regular
         }
         
-        let variant: Variant
-        let color: Color
-        let leadingIcon: UIImage?
-        let trailingIcon: UIImage?
-        let isEnabled: Bool
+        public let variant: Variant
+        public let color: Color
+        public let leadingIcon: UIImage?
+        public let trailingIcon: UIImage?
+        public let isEnabled: Bool
         
-        init(variant: Variant = .primary, color: Color = .green, leadingIcon: UIImage? = nil, trailingIcon: UIImage? = nil, isEnabled: Bool = true) {
+        public init(variant: Variant = .primary, color: Color = .green, leadingIcon: UIImage? = nil, trailingIcon: UIImage? = nil, isEnabled: Bool = true) {
             self.variant = variant
             self.color = color
             self.leadingIcon = leadingIcon
@@ -38,7 +38,7 @@ import os
         }
     }
     
-    func setConfiguration(_ configuration: Configuration) {
+    public func setConfiguration(_ configuration: Configuration) {
         variant = configuration.variant
         color = configuration.color
         leadingIcon = configuration.leadingIcon
@@ -46,29 +46,29 @@ import os
         isEnabled = configuration.isEnabled
     }
 
-    @IBInspectable var label: String? {
+    @IBInspectable public var label: String? {
         get {
             return button.titleLabel?.text
         } set {
             button.setTitle(newValue, for: .normal)
         }
     }
-    var variant: Configuration.Variant = .primary {
+    public var variant: Configuration.Variant = .primary {
         didSet {
             updateButtonColors()
         }
     }
-    var leadingIcon: UIImage? = nil {
+    public var leadingIcon: UIImage? = nil {
         didSet {
             updateLeftIcon()
         }
     }
-    var trailingIcon: UIImage? = nil {
+    public var trailingIcon: UIImage? = nil {
         didSet {
             updateRightIcon()
         }
     }
-    var isEnabled: Bool { 
+    public var isEnabled: Bool {
         get {
             return button.isEnabled
         } set {
@@ -76,18 +76,18 @@ import os
             updateIconsColors()
         }
     }
-    var color: Configuration.Color = .green {
+    public var color: Configuration.Color = .green {
         didSet {
             updateButtonColors()
         }
     }
-    var size: Configuration.Size = .regular {
+    public var size: Configuration.Size = .regular {
         didSet {
             height = Self.height(forSize: size)
         }
     }
     
-    var onTap: (() -> ())?
+    public var onTap: (() -> ())?
     
     private var height: CGFloat = 44
     private var leftImageView: UIImageView?
@@ -119,7 +119,7 @@ import os
     }
     
     public override var intrinsicContentSize: CGSize {
-        return CGSize(width: super.intrinsicContentSize.width, height: height)
+        return CGSize(width: button.intrinsicContentSize.width, height: height)
     }
     
     public override func prepareForInterfaceBuilder() {

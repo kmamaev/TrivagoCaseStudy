@@ -1,4 +1,4 @@
-import UIKit
+import SwiftUI
 
 enum Example {
     case brandButtonVariations
@@ -51,21 +51,18 @@ class ExampleChooserViewController: UITableViewController {
 extension ExampleChooserViewController {
     func showExample(_ example: Example) {
         let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewControllerToShow: UIViewController
         switch example {
         case .brandButtonVariations:
-            let viewController = mainStoryboard.instantiateViewController(identifier: "BrandButtonVariationsViewController")
-            navigationController?.pushViewController(viewController, animated: true)
+            viewControllerToShow = mainStoryboard.instantiateViewController(identifier: "BrandButtonVariationsViewController")
         case .brandButtonWithCode:
-            let viewController = BrandButtonWithCodeViewController()
-            navigationController?.pushViewController(viewController, animated: true)
+            viewControllerToShow = BrandButtonWithCodeViewController()
         case .brandButtonWithStoryboard:
-            let viewController = mainStoryboard.instantiateViewController(identifier: "BrandButtonWithStoryboardViewController")
-            navigationController?.pushViewController(viewController, animated: true)
+            viewControllerToShow = mainStoryboard.instantiateViewController(identifier: "BrandButtonWithStoryboardViewController")
         case .brandButtonWithSwiftUI:
-            // TODO: implement
-            print("Not implemented yet")
-            break
+            viewControllerToShow = UIHostingController(rootView: BrandButtonWithSwiftUIView())
         }
+        navigationController?.pushViewController(viewControllerToShow, animated: true)
     }
 }
 
