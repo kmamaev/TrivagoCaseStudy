@@ -8,7 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: scene)
         let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = mainStoryboard.instantiateViewController(identifier: "ViewController")
+        let viewController = mainStoryboard.instantiateViewController(identifier: "ButtonExampleViewController")
         window.rootViewController = viewController
         window.makeKeyAndVisible()
         self.window = window

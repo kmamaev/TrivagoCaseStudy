@@ -8,20 +8,51 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Button Example View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="TrivagoCaseStudy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ButtonExampleViewController" id="BYZ-38-t0r" customClass="ButtonExampleViewController" customModule="TrivagoCaseStudy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="always" translatesAutoresizingMaskIntoConstraints="NO" id="yto-nJ-JLk">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="600" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0Lf-UF-g3r">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="600"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="0Lf-UF-g3r" firstAttribute="leading" secondItem="RsZ-K5-RJO" secondAttribute="leading" id="HRa-Io-c2r"/>
+                                    <constraint firstItem="0Lf-UF-g3r" firstAttribute="bottom" secondItem="RsZ-K5-RJO" secondAttribute="bottom" id="a4k-Yf-1m2"/>
+                                    <constraint firstItem="0Lf-UF-g3r" firstAttribute="leading" secondItem="tWJ-Ic-znc" secondAttribute="leading" id="a5C-4h-EfQ"/>
+                                    <constraint firstItem="tWJ-Ic-znc" firstAttribute="trailing" secondItem="0Lf-UF-g3r" secondAttribute="trailing" id="i7J-Rv-38i"/>
+                                    <constraint firstItem="0Lf-UF-g3r" firstAttribute="top" secondItem="RsZ-K5-RJO" secondAttribute="top" id="iBQ-rW-yHk"/>
+                                    <constraint firstItem="0Lf-UF-g3r" firstAttribute="trailing" secondItem="RsZ-K5-RJO" secondAttribute="trailing" id="z2a-NM-UvT"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="RsZ-K5-RJO"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="tWJ-Ic-znc"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yto-nJ-JLk" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="i67-Ew-R55"/>
+                            <constraint firstItem="yto-nJ-JLk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oZo-4U-ABz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yto-nJ-JLk" secondAttribute="trailing" id="rek-zH-KQB"/>
+                            <constraint firstItem="yto-nJ-JLk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yuX-dI-m6J"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="stackView" destination="0Lf-UF-g3r" id="vFo-0k-hqS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7" y="4"/>
+            <point key="canvasLocation" x="-8.3969465648854964" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>

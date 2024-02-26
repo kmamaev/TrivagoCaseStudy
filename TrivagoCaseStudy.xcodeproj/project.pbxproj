@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		ECBC5A3F2B8B7F4A00709413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A3E2B8B7F4A00709413 /* AppDelegate.swift */; };
 		ECBC5A412B8B7F4A00709413 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A402B8B7F4A00709413 /* SceneDelegate.swift */; };
-		ECBC5A432B8B7F4A00709413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A422B8B7F4A00709413 /* ViewController.swift */; };
+		ECBC5A432B8B7F4A00709413 /* ButtonExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A422B8B7F4A00709413 /* ButtonExampleViewController.swift */; };
 		ECBC5A462B8B7F4A00709413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBC5A442B8B7F4A00709413 /* Main.storyboard */; };
 		ECBC5A482B8B7F4B00709413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBC5A472B8B7F4B00709413 /* Assets.xcassets */; };
 		ECBC5A4B2B8B7F4B00709413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBC5A492B8B7F4B00709413 /* LaunchScreen.storyboard */; };
 		ECBC5A562B8B7F4B00709413 /* TrivagoCaseStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A552B8B7F4B00709413 /* TrivagoCaseStudyTests.swift */; };
 		ECBC5A602B8B7F4B00709413 /* TrivagoCaseStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A5F2B8B7F4B00709413 /* TrivagoCaseStudyUITests.swift */; };
 		ECBC5A622B8B7F4B00709413 /* TrivagoCaseStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A612B8B7F4B00709413 /* TrivagoCaseStudyUITestsLaunchTests.swift */; };
+		ECBC5A732B8B81D100709413 /* BrandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A722B8B81D100709413 /* BrandButton.swift */; };
+		ECBC5A762B8B874000709413 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A752B8B874000709413 /* UIColor+Hex.swift */; };
+		ECBC5A7C2B8BA0E300709413 /* proximanova_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECBC5A7B2B8BA0E300709413 /* proximanova_bold.otf */; };
+		ECBC5A7F2B8BA96D00709413 /* CustomColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A7E2B8BA96D00709413 /* CustomColorButton.swift */; };
+		ECBC5A812B8BC81100709413 /* BrandButtonColorsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A802B8BC81100709413 /* BrandButtonColorsProvider.swift */; };
+		ECBC5A832B8C833700709413 /* BrandColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A822B8C833700709413 /* BrandColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		ECBC5A3B2B8B7F4A00709413 /* TrivagoCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivagoCaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBC5A3E2B8B7F4A00709413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECBC5A402B8B7F4A00709413 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECBC5A422B8B7F4A00709413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECBC5A422B8B7F4A00709413 /* ButtonExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExampleViewController.swift; sourceTree = "<group>"; };
 		ECBC5A452B8B7F4A00709413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECBC5A472B8B7F4B00709413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECBC5A4A2B8B7F4B00709413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		ECBC5A5B2B8B7F4B00709413 /* TrivagoCaseStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivagoCaseStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBC5A5F2B8B7F4B00709413 /* TrivagoCaseStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagoCaseStudyUITests.swift; sourceTree = "<group>"; };
 		ECBC5A612B8B7F4B00709413 /* TrivagoCaseStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagoCaseStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECBC5A722B8B81D100709413 /* BrandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButton.swift; sourceTree = "<group>"; };
+		ECBC5A752B8B874000709413 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		ECBC5A7B2B8BA0E300709413 /* proximanova_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximanova_bold.otf; sourceTree = "<group>"; };
+		ECBC5A7E2B8BA96D00709413 /* CustomColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorButton.swift; sourceTree = "<group>"; };
+		ECBC5A802B8BC81100709413 /* BrandButtonColorsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonColorsProvider.swift; sourceTree = "<group>"; };
+		ECBC5A822B8C833700709413 /* BrandColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,7 @@
 				ECBC5A402B8B7F4A00709413 /* SceneDelegate.swift */,
 				ECBC5A6E2B8B804700709413 /* ViewControllers */,
 				ECBC5A6F2B8B804E00709413 /* Resources */,
+				ECBC5A712B8B815E00709413 /* DesignSystem */,
 				ECBC5A4C2B8B7F4B00709413 /* Info.plist */,
 			);
 			path = TrivagoCaseStudy;
@@ -128,7 +141,7 @@
 		ECBC5A6E2B8B804700709413 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				ECBC5A422B8B7F4A00709413 /* ViewController.swift */,
+				ECBC5A422B8B7F4A00709413 /* ButtonExampleViewController.swift */,
 				ECBC5A442B8B7F4A00709413 /* Main.storyboard */,
 			);
 			path = ViewControllers;
@@ -141,6 +154,59 @@
 				ECBC5A472B8B7F4B00709413 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECBC5A712B8B815E00709413 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC5A822B8C833700709413 /* BrandColor.swift */,
+				ECBC5A7D2B8BA92E00709413 /* BrandButton */,
+				ECBC5A742B8B85AB00709413 /* Utils */,
+				ECBC5A842B8C848C00709413 /* ReusableViews */,
+				ECBC5A772B8B9F8B00709413 /* Resources */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		ECBC5A742B8B85AB00709413 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC5A752B8B874000709413 /* UIColor+Hex.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ECBC5A772B8B9F8B00709413 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC5A782B8B9F9A00709413 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECBC5A782B8B9F9A00709413 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC5A7B2B8BA0E300709413 /* proximanova_bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ECBC5A7D2B8BA92E00709413 /* BrandButton */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC5A722B8B81D100709413 /* BrandButton.swift */,
+				ECBC5A802B8BC81100709413 /* BrandButtonColorsProvider.swift */,
+			);
+			path = BrandButton;
+			sourceTree = "<group>";
+		};
+		ECBC5A842B8C848C00709413 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				ECBC5A7E2B8BA96D00709413 /* CustomColorButton.swift */,
+			);
+			path = ReusableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +316,7 @@
 				ECBC5A4B2B8B7F4B00709413 /* LaunchScreen.storyboard in Resources */,
 				ECBC5A482B8B7F4B00709413 /* Assets.xcassets in Resources */,
 				ECBC5A462B8B7F4A00709413 /* Main.storyboard in Resources */,
+				ECBC5A7C2B8BA0E300709413 /* proximanova_bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +341,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECBC5A432B8B7F4A00709413 /* ViewController.swift in Sources */,
+				ECBC5A432B8B7F4A00709413 /* ButtonExampleViewController.swift in Sources */,
+				ECBC5A832B8C833700709413 /* BrandColor.swift in Sources */,
 				ECBC5A3F2B8B7F4A00709413 /* AppDelegate.swift in Sources */,
+				ECBC5A7F2B8BA96D00709413 /* CustomColorButton.swift in Sources */,
+				ECBC5A732B8B81D100709413 /* BrandButton.swift in Sources */,
+				ECBC5A812B8BC81100709413 /* BrandButtonColorsProvider.swift in Sources */,
 				ECBC5A412B8B7F4A00709413 /* SceneDelegate.swift in Sources */,
+				ECBC5A762B8B874000709413 /* UIColor+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
