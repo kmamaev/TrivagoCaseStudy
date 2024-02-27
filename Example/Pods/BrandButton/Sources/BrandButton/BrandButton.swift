@@ -233,7 +233,7 @@ private extension BrandButton {
         
         let i = button.contentEdgeInsets
         button.contentEdgeInsets = UIEdgeInsets(top: i.top, left: leftContentInset, bottom: i.bottom, right: rightContentInset)
-        button.titleLabel?.font = UIFont(name: "ProximaNova-Bold", size: 15)
+        button.titleLabel?.font = FontsManager.shared.brandFont(withSize: 15)
         button.layer.cornerRadius = 4
     }
     

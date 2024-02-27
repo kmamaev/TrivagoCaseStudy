@@ -1,5 +1,5 @@
 PODS:
-  - BrandButton (1.0.2)
+  - BrandButton (1.0.5)
 
 DEPENDENCIES:
   - BrandButton (from `https://github.com/kmamaev/TrivagoCaseStudy.git`)
@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   BrandButton:
-    :commit: 34bb66bee696a944912b87a070b80531fd469a45
+    :commit: 16b772b04d786cf38c49e0c841be32666fa44fe9
     :git: https://github.com/kmamaev/TrivagoCaseStudy.git
 
 SPEC CHECKSUMS:
-  BrandButton: 0d38f68175e678001dc54e58cbc56414e80920ca
+  BrandButton: 33086197e3827ef51ec3bfaa079dee03c58376ed
 
 PODFILE CHECKSUM: 15b9ce1d21cc2bf23b7005906fc534fa4b45b123
 

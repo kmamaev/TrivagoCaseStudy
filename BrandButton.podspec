@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "BrandButton"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.5"
   spec.summary      = "Design System Framework with a BrandButton"
   spec.homepage     = "https://github.com/kmamaev/TrivagoCaseStudy"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
@@ -8,4 +8,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/kmamaev/TrivagoCaseStudy.git", :tag => "#{spec.version}" }
   spec.platforms    = { :ios => "17.0" }
   spec.source_files = "Sources/**/*.{swift,objc}"
+  spec.resources    = "Sources/Resources/**/*.{ttf,otf}"
 end

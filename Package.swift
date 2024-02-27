@@ -7,12 +7,15 @@ let package = Package(
     products: [
         .library(
             name: "BrandButton",
-            targets: ["BrandButton"]),
+            targets: ["BrandButton"]
+        ),
     ],
     targets: [
         .target(
             name: "BrandButton",
             dependencies: [],
-            path: "Sources"),
+            path: "Sources",
+            resources: [.process("Resources")]
+        ),
     ]
 )
